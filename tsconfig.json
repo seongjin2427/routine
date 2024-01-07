@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "target": "ESNext"
   },
   "exclude": ["node_modules"],
   "include": ["./cote/**/*"]
