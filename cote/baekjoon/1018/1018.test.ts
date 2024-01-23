@@ -1,0 +1,103 @@
+import solution from "./1018";
+
+describe("1018. 체스판 다시 칠하기", () => {
+  it("case 1.", () => {
+    const input = `8 8
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB
+BWBBBWBW
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB
+BWBWBWBW`;
+
+    expect(solution(input)).toEqual(1);
+  });
+  it("case 2.", () => {
+    const input = `10 13
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+WWWWWWWWWWBWB
+WWWWWWWWWWBWB`;
+
+    expect(solution(input)).toEqual(12);
+  });
+  it("case 3.", () => {
+    const input = `8 8
+BWBWBWBW
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB`;
+
+    expect(solution(input)).toEqual(0);
+  });
+  it("case 4.", () => {
+    const input = `9 23
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBB
+BBBBBBBBBBBBBBBBBBBBBBW`;
+
+    expect(solution(input)).toEqual(31);
+  });
+  it("case 5.", () => {
+    const input = `10 10
+BBBBBBBBBB
+BBWBWBWBWB
+BWBWBWBWBB
+BBWBWBWBWB
+BWBWBWBWBB
+BBWBWBWBWB
+BWBWBWBWBB
+BBWBWBWBWB
+BWBWBWBWBB
+BBBBBBBBBB`;
+
+    expect(solution(input)).toEqual(0);
+  });
+  it("case 6.", () => {
+    const input = `8 8
+WBWBWBWB
+BWBWBWBW
+WBWBWBWB
+BWBBBWBW
+WBWBWBWB
+BWBWBWBW
+WBWBWWWB
+BWBWBWBW`;
+
+    expect(solution(input)).toEqual(2);
+  });
+  it("case 7.", () => {
+    const input = `11 12
+BWWBWWBWWBWW
+BWWBWBBWWBWW
+WBWWBWBBWWBW
+BWWBWBBWWBWW
+WBWWBWBBWWBW
+BWWBWBBWWBWW
+WBWWBWBBWWBW
+BWWBWBWWWBWW
+WBWWBWBBWWBW
+BWWBWBBWWBWW
+WBWWBWBBWWBW`;
+
+    expect(solution(input)).toEqual(15);
+  });
+});
