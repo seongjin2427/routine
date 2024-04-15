@@ -20,3 +20,4 @@ describe("178870. 연속된 부분 수열의 합", () => {
     expect(solution(sequence, k)).toEqual([0, 2]);
   });
 });
+
