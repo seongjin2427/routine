@@ -32,6 +32,22 @@ const testCases = [
     ],
     result: 50,
   },
+  {
+    picks: [1, 1, 0],
+    minerals: [
+      "stone",
+      "stone",
+      "iron",
+      "stone",
+      "diamond",
+      "diamond",
+      "diamond",
+      "diamond",
+      "diamond",
+      "diamond",
+    ],
+    result: 14,
+  },
 ];
 
 describe("172927. 광물 캐기", () =>
