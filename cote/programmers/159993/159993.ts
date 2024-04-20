@@ -67,4 +67,4 @@ export default function escapeMaze(maps: string[]) {
   bfs(leverPoint[0], leverPoint[1], 0, visitedForEnd, "E");
   if (flag === time) return -1;
   return time;
-}
+} 
