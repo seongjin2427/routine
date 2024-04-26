@@ -9,17 +9,24 @@
 
 export default function seesaw(weights: number[]) {
   const map = {};
-  const ratio = [1, 3 / 2, 4 / 3, 2]; // 비율 배열
+  const ratios = [1, 3 / 2, 4 / 3, 2]; // 비율 배열
 
   // 무게를 내림차순 정렬 후 reduce로 합산
   return weights
     .sort((a, b) => b - a)
     .reduce((result, weight) => {
-      // 해당 무게의 비율을 곱하여 result에 합산
-      ratio.map((v) => (result += map[weight * v] || 0));
+      // 현재 무게에 대한 모든 비율 확인
+      ratios.forEach((ratio) => {
+        const matchedWeight = weight * ratio;
+        // 맵에서 해당 비율에 맞는 무게의 카운트를 결과에 추가
+        if (map[matchedWeight]) {
+          result += map[matchedWeight];
+        }
+      });
 
-      // 해당 무게의 등장 횟수 1 증가
+      // 현재 무게를 맵에 추가 (이후 계산을 위해)
       map[weight] = (map[weight] || 0) + 1;
+
       return result;
     }, 0);
 }
