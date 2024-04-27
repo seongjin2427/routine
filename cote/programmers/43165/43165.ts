@@ -7,10 +7,13 @@
 // * 1 <= target <= 1_000
 
 export default function solution(numbers: number[], target: number) {
-  let result = [];
+  let answer = 0;
 
   function recursion(sum, index) {
-    if (index >= numbers.length - 1) return result.push(sum);
+    if (index >= numbers.length - 1) {
+      if (sum === target) answer++;
+      return;
+    }
 
     index++;
     recursion(sum + numbers[index], index);
@@ -19,5 +22,6 @@ export default function solution(numbers: number[], target: number) {
 
   recursion(numbers[0], 0);
   recursion(-numbers[0], 0);
-  return result.filter((el) => el === target).length;
+
+  return answer;
 }
