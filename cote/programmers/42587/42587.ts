@@ -6,7 +6,7 @@
 // * 1 <= priorities[i] <= 9
 // * 0 <= location <= queue.length - 1
 
-export default function solution(priorities: number[], location: number) {
+export default function process(priorities: number[], location: number) {
   const withLocation = priorities.map((priority, index) =>
     index === location ? [priority, 1] : [priority, 0]
   );
