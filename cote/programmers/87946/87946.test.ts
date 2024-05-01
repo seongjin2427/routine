@@ -1,4 +1,4 @@
-import solution from "./87946";
+import fatigues from "./87946";
 
 describe("87946. 피로도", () => {
   it("case 1.", () => {
@@ -9,7 +9,7 @@ describe("87946. 피로도", () => {
       [30, 10],
     ];
 
-    expect(solution(k, dungeons)).toEqual(3);
+    expect(fatigues(k, dungeons)).toEqual(3);
   });
   it("case 2.", () => {
     const k = 1;
@@ -19,7 +19,7 @@ describe("87946. 피로도", () => {
       [30, 10],
     ];
 
-    expect(solution(k, dungeons)).toEqual(0);
+    expect(fatigues(k, dungeons)).toEqual(0);
   });
   it("case 3.", () => {
     const k = 100;
@@ -29,7 +29,7 @@ describe("87946. 피로도", () => {
       [20, 20],
     ];
 
-    expect(solution(k, dungeons)).toEqual(3);
+    expect(fatigues(k, dungeons)).toEqual(3);
   });
   it("case 4.", () => {
     const k = 40;
@@ -41,6 +41,6 @@ describe("87946. 피로도", () => {
       [10, 10],
     ];
 
-    expect(solution(k, dungeons)).toEqual(4);
+    expect(fatigues(k, dungeons)).toEqual(4);
   });
 });

@@ -6,7 +6,7 @@
 // * 1 <= dungeons[세로] 8
 // * dungeons[가로] = 2
 
-export default function solution(k: number, dungeons: number[][]) {
+export default function fatigues(k: number, dungeons: number[][]) {
   let answer = 0;
 
   const dfs = (fatigue: number, visitCheckArr: boolean[], count: number) => {
