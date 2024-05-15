@@ -136,6 +136,7 @@
 | 2024.05.12 | 21736    | 헌내기는 친구가 필요해           | 실버 2 | ❌           |
 | 2024.05.13 | 10164    | 격자상의 경로                    | 실버 2 | ❌           |
 | 2024.05.14 | 4358     | 생태학                           | 실버 2 | ⭕️          |
+| 2024.05.15 | 2688     | 줄어들지 않아                    | 실버 1 | ⭕️          |
 
 <br>
 
@@ -263,14 +264,15 @@
 
 - LeetCode
 
-| 날짜       | 문제번호 | 제목                                | 난이도 | 문제해결여부 |
-| ---------- | -------- | ----------------------------------- | ------ | ------------ |
-| 2024.02.03 | 150      | Evaluate Reverse Polish Notation    | Medium | ⭕️          |
-| 2024.05.06 | 1        | Two sum                             | Easy   | ⭕️          |
-| 2024.05.07 | 9        | Palindrome Number                   | Easy   | ⭕️          |
-| 2024.05.08 | 13       | Roman to Integer                    | Easy   | ⭕️          |
-| 2024.05.10 | 14       | Longest Common Prefix               | Easy   | ⭕️          |
-| 2024.05.11 | 20       | Valid Parentheses                   | Easy   | ⭕️          |
-| 2024.05.12 | 21       | Merge Two Sorted Lists              | Easy   | ❌           |
-| 2024.05.13 | 26       | Remove Duplicates from Sorted Array | Easy   | ⭕️          |
-| 2024.05.14 | 27       | Remove Element                      | Easy   | ⭕️          |
+| 날짜       | 문제번호 | 제목                                               | 난이도 | 문제해결여부 |
+| ---------- | -------- | -------------------------------------------------- | ------ | ------------ |
+| 2024.02.03 | 150      | Evaluate Reverse Polish Notation                   | Medium | ⭕️          |
+| 2024.05.06 | 1        | Two sum                                            | Easy   | ⭕️          |
+| 2024.05.07 | 9        | Palindrome Number                                  | Easy   | ⭕️          |
+| 2024.05.08 | 13       | Roman to Integer                                   | Easy   | ⭕️          |
+| 2024.05.10 | 14       | Longest Common Prefix                              | Easy   | ⭕️          |
+| 2024.05.11 | 20       | Valid Parentheses                                  | Easy   | ⭕️          |
+| 2024.05.12 | 21       | Merge Two Sorted Lists                             | Easy   | ❌           |
+| 2024.05.13 | 26       | Remove Duplicates from Sorted Array                | Easy   | ⭕️          |
+| 2024.05.14 | 27       | Remove Element                                     | Easy   | ⭕️          |
+| 2024.05.15 | 28       | Find the Index of the First Occurrence in a String | Easy   | ⭕️          |
