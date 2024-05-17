@@ -138,6 +138,7 @@
 | 2024.05.14 | 4358     | 생태학                           | 실버 2 | ⭕️          |
 | 2024.05.15 | 2688     | 줄어들지 않아                    | 실버 1 | ❌           |
 | 2024.05.16 | 14716    | 현수막                           | 실버 1 | ⭕️          |
+| 2024.05.17 | 2527     | 직사각형                         | 실버 1 | ⭕️          |
 
 <br>
 
@@ -278,3 +279,4 @@
 | 2024.05.14 | 27       | Remove Element                                     | Easy   | ⭕️          |
 | 2024.05.15 | 28       | Find the Index of the First Occurrence in a String | Easy   | ⭕️          |
 | 2024.05.16 | 35       | Search Insert Position                             | Easy   | ❌           |
+| 2024.05.17 | 58       | Length of Last Word                                | Easy   | ⭕️          |
