@@ -2,9 +2,9 @@
 //* ❌ 실패
 //* 구현
 
-import { TreeNode } from "./94.test";
-
 //* -100 <= Node.val <= 100
+
+import { TreeNode } from "../@common/tree";
 
 export default function binaryTreeInorderTraversal(
   root: TreeNode | null
