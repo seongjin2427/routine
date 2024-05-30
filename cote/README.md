@@ -151,6 +151,7 @@
 | 2024.05.27 | 18353    | 병사 배치하기                    | 실버 2 | ❌           |
 | 2024.05.28 | 14620    | 꽃길                             | 실버 2 | ❌           |
 | 2024.05.29 | 4883     | 삼각 그래프                      | 실버 1 | ❌           |
+| 2024.05.30 | 15565    | 귀여운 라이언                    | 실버 1 | ❌           |
 
 <br>
 
@@ -304,3 +305,4 @@
 | 2024.05.27 | 101      | Symmetric Tree                                     | Easy   | ❌           |
 | 2024.05.28 | 104      | Maximum Depth of Binary Tree                       | Easy   | ⭕️          |
 | 2024.05.29 | 108      | Convert Sorted Array to Binary Search Tree         | Easy   | ❌           |
+| 2024.05.30 | 110      | Balanced Binary Tree                               | Easy   | ❌           |
