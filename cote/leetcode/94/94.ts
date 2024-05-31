@@ -4,7 +4,7 @@
 
 //* -100 <= Node.val <= 100
 
-import { TreeNode } from "../@common/tree";
+import { TreeNode } from "../../@common/tree";
 
 export default function binaryTreeInorderTraversal(
   root: TreeNode | null

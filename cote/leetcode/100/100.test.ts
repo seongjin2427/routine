@@ -1,4 +1,4 @@
-import { makeTreeNode } from "../@common/tree";
+import { makeTreeNode } from "../../@common/tree";
 import sameTree from "./100";
 
 const testCases = [

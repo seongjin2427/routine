@@ -1,4 +1,4 @@
-import { makeTreeNode } from "../@common/tree";
+import { makeTreeNode } from "../../@common/tree";
 import maximumDepthOfBinaryTree from "./104";
 
 const testCases = [

@@ -4,7 +4,7 @@
 
 //* -10_000 <= Node.val <= 10_000
 
-import { TreeNode } from "../@common/tree";
+import { TreeNode } from "../../@common/tree";
 
 export default function balancedBinaryTree(root: TreeNode | null) {
   let answer = { isBalanced: true };

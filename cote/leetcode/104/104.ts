@@ -5,7 +5,7 @@
 //* -100 <= Node.val <= 100
 //* 0 <= Node range <= 100_000
 
-import { TreeNode } from "../@common/tree";
+import { TreeNode } from "../../@common/tree";
 
 function checkDepth(treeNode: TreeNode, depth: number): number {
   if (treeNode === null || treeNode.val === null) return depth;

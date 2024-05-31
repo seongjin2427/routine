@@ -5,7 +5,7 @@
 //* 1 <= nums.length <= 100_000
 //* -100_000 <= nums[i] <= 100_000
 
-import { TreeNode } from "../@common/tree";
+import { TreeNode } from "../../@common/tree";
 
 export default function convertSortedArrayToBinarySearchTree(nums: number[]) {
   if (nums.length === 0) return null;

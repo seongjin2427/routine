@@ -1,4 +1,4 @@
-import { makeTreeNode } from "../@common/tree";
+import { makeTreeNode } from "../../@common/tree";
 import binaryTreeInorderTraversal from "./94";
 
 const testCases = [

@@ -4,7 +4,7 @@
 
 //* -100 <= Node.val <= 100
 
-import { TreeNode } from "../@common/tree";
+import { TreeNode } from "../../@common/tree";
 
 const isMirror = (t1: TreeNode | null, t2: TreeNode | null): boolean => {
   if (t1 === null && t2 === null) return true;

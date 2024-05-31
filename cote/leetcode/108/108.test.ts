@@ -1,4 +1,4 @@
-import { makeTreeNode } from "../@common/tree";
+import { makeTreeNode } from "../../@common/tree";
 import convertSortedArrayToBinarySearchTree from "./108";
 
 const testCases = [

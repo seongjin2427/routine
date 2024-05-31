@@ -1,4 +1,4 @@
-import { makeTreeNode } from "../@common/tree";
+import { makeTreeNode } from "../../@common/tree";
 import balancedBinaryTree from "./110";
 
 const testCases = [
