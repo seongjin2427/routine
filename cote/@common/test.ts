@@ -3,7 +3,7 @@ type Params<T> = WithoutAnswer<T>[keyof WithoutAnswer<T>][];
 
 const makeTest = <T extends Record<string, any>>(
   description: string,
-  testCases: T[],
+  testCases: (Record<string, any> & { answer: any })[],
   solution: (...params: Params<T>) => any
 ) =>
   describe(description, () =>
